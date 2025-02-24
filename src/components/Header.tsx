@@ -52,7 +52,7 @@ function Header ({cart, dispatch} : HeaderProps ) {
                                             
                                             <tr key={product.id}>
                                                 <td>
-                                                    <img className="img-fluid"  src={`./public/img/${product.image}.jpg`} alt="imagen producto" />
+                                                    <img className="img-fluid"  src={`/ecommerceGuitarras/img/${product.image}.jpg`} alt="imagen producto" />
                                                 </td>
                                                 <td>{product.name}</td>
                                                 <td className="fw-bold">
